@@ -30,7 +30,7 @@
 <body>
 <div class="header_bg">
   <div class="logo">
-    <a href="index.html"><img alt="" src="img/logo_3.png"/></a>
+    <span class="font-style">泸州市医保基金预测平台</span>
   </div>
   <div class="menu">
     <nav>
@@ -53,13 +53,16 @@
     <div id="source_table_content" style="">
       <div class="wrap" >
         <form id="queryPredict">
-          <span>选择模型：</span>
-          <select id="select_model" class="form-control" style="width:100px;margin-left: 100px"></select>
-          <span>选择变量：</span>
-          <select id="select_variable" class="form-control" style="width:100px;margin-left: 100px"></select>
-          <input id="query" class="btn" type="button" value="查询" style="margin-left: 100px;margin-top:20px "/>
+          <span style="font-size:50px" >选择模型：</span>
+          <select id="select_model" class="form-control select_style" ></select>
+          <span style="font-size:50px">选择变量：</span>
+          <select id="select_variable" class="form-control select_style" style="width:200px;margin-left: 100px"></select>
+          <input id="query" class="btn" type="button" value="查询" style="font-size: 30px; margin-left: 100px;margin-top:20px "/>
         </form>
       </div>
+
+
+
       <script src="js/echarts.common.min.js"></script>
       <script type="text/javascript">
         $(document).ready(function(){
@@ -70,7 +73,7 @@
             success:function(data){
               var model_select=$("#select_model");
               $.each(data.modelList,function(i,item){
-                model_select.append("<option value='"+item.key+"'>"+item.value+"</option>");
+                model_select.append("<option style='font-size: 20px' value='"+item.key+"'>"+item.value+"</option>");
               });
               var model_select=$("#select_variable");
               $.each(data.variableList,function(i,item){

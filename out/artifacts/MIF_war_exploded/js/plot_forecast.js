@@ -2,8 +2,12 @@ function plot(forecastList){
     var line = echarts.init(document.getElementById('detail-information'));
     var option = {
         title: {
-            text: '堆叠区域图'
+            text: '堆叠区域图',
+            textStyle:{
+                fontSize:30
+            }
         },
+
         tooltip : {
             trigger: 'axis'
         },
@@ -23,7 +27,7 @@ function plot(forecastList){
             {
                 type : 'category',
                 boundaryGap : false,
-                data : []
+                data : [],
             }
         ],
         yAxis : [
@@ -51,7 +55,7 @@ function plot(forecastList){
         areaStyle: {normal: {}},
         data:data
     });
-    option.title.text='泸州市医保基金'+variable+'预测';
+    option.title.text='泸州市医保基金'+variable+'预测(单位：万元)';
     //设置x轴 名称：年份
     option.xAxis[0].data=years;
     line.setOption(option);

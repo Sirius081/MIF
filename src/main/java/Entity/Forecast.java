@@ -17,7 +17,7 @@ public class Forecast {
 
     public Forecast(int model, String time, int variable, String value, String errorRate) {
         this.model = Dictionary.getModelMap().get(model);
-        this.time = time;
+        this.time = time.substring(0,4);
         this.variable =Dictionary.getVariableMap().get(variable);
         this.value = value;
         this.errorRate = errorRate;
