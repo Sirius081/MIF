@@ -7,23 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4fade26-1cba-4f5c-994f-765d6118d29f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/MIF_war_exploded/WEB-INF/classes/Dao/DBtool.class" afterPath="$PROJECT_DIR$/out/artifacts/MIF_war_exploded/WEB-INF/classes/Dao/DBtool.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/MIF_war_exploded/WEB-INF/classes/Entity/Forecast.class" afterPath="$PROJECT_DIR$/out/artifacts/MIF_war_exploded/WEB-INF/classes/Entity/Forecast.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/MIF_war_exploded/WEB-INF/classes/ReadData.class" afterPath="$PROJECT_DIR$/out/artifacts/MIF_war_exploded/WEB-INF/classes/ReadData.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Dao/DBtool.class" afterPath="$PROJECT_DIR$/target/classes/Dao/DBtool.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Entity/Forecast.class" afterPath="$PROJECT_DIR$/target/classes/Entity/Forecast.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ReadData.class" afterPath="$PROJECT_DIR$/target/classes/ReadData.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/MIF_war_exploded/css/spider.css" afterPath="$PROJECT_DIR$/out/artifacts/MIF_war_exploded/css/spider.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/MIF_war_exploded/index.jsp" afterPath="$PROJECT_DIR$/out/artifacts/MIF_war_exploded/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/MIF_war_exploded/js/plot_forecast.js" afterPath="$PROJECT_DIR$/out/artifacts/MIF_war_exploded/js/plot_forecast.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Dao/DBtool.java" afterPath="$PROJECT_DIR$/src/main/java/Dao/DBtool.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Entity/Forecast.java" afterPath="$PROJECT_DIR$/src/main/java/Entity/Forecast.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ReadData.java" afterPath="$PROJECT_DIR$/src/main/java/ReadData.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/css/spider.css" afterPath="$PROJECT_DIR$/web/css/spider.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.jsp" afterPath="$PROJECT_DIR$/web/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/plot_forecast.js" afterPath="$PROJECT_DIR$/web/js/plot_forecast.js" />
     </list>
     <ignored path="MIF.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -85,8 +70,8 @@
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.025669644">
-              <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -1187,12 +1172,12 @@
       <workItem from="1470913380947" duration="614000" />
       <workItem from="1473138732202" duration="6937000" />
       <workItem from="1473417422111" duration="636000" />
-      <workItem from="1474425877301" duration="3618000" />
+      <workItem from="1474425877301" duration="3836000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84130000" />
+    <option name="totallyTimeSpent" value="84348000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="49" y="33" width="1719" height="1056" extended-state="0" />
@@ -1714,8 +1699,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.025669644">
-          <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
