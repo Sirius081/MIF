@@ -12,7 +12,6 @@ import java.util.Map;
 public class Dictionary {
     private static Map<Integer,String> modelMap=null;
     private static Map<Integer,String> variableMap=null;
-
     public static Map<Integer, String> getModelMap() {
         if(modelMap==null){
             modelMap=dao.getModel("model");
@@ -26,7 +25,6 @@ public class Dictionary {
         }
         return variableMap;
     }
-
     private static DictionaryDao dao=new DictionaryDao();
 
 }

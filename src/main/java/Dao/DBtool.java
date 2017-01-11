@@ -15,8 +15,8 @@ public class DBtool {
         try {
             Class.forName("com.mysql.jdbc.Driver");
             String username="root";
-            String password="1234";
-            String url="jdbc:mysql://58.198.176.212:3306/ylbx";
+            String password="ecnu105";
+            String url="jdbc:mysql://58.198.176.227:3306/MIF";
             con=(Connection) DriverManager.getConnection(url,username,password);
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
