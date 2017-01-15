@@ -39,7 +39,7 @@ public class DrugAction extends ActionSupport implements ServletRequestAware {
         return SUCCESS;
     }
     public String top10(){
-        String orderBy= request.getParameter("orderBy");
+        String orderBy="fees";
         int year=0;
         if(request.getParameter("year")!=null){
             year=Integer.parseInt(request.getParameter("year"));

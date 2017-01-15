@@ -21,7 +21,7 @@ public class DiseaseDao {
         ResultSet rs=null;
         StringBuffer sql=new StringBuffer("select * from disease where 1=1");
         if(d.getName()!=null){
-            sql.append(" and name='"+d.getName()+"'");
+            sql.append(" and name like '%"+d.getName()+"%'");
         }
         if(d.getYear()!=0){
             sql.append(" and year="+d.getYear());
